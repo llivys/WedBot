@@ -24,3 +24,15 @@ Before running the scraper, ensure you have the following installed:
     ```bash
     git clone https://github.com/your-username/wedding-website-scraper.git
     cd wedding-website-scraper
+
+2. Create and activate a virtual environment:
+    ```bash
+    # On macOS:
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
